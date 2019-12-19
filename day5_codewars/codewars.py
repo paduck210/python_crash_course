@@ -14,3 +14,4 @@ def delete_nth(order, max_e):
     return ans
 
 print(delete_nth([1,2,2,1,3,1], 2))
+
