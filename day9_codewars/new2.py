@@ -11,5 +11,5 @@ def valid_parentheses(string):
         else:
             return False
 
-string =  " e()miae)e)kwxvcebppq(ylaazr(" # False (() ()) ((  ABBBAA (( ))
+string =  " e()miae)e)kwxvcebppq(ylaazr(" # False
 print(valid_parentheses(string))
