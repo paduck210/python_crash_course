@@ -10,38 +10,3 @@ def next_smaller_old(num):
         else:
             return(l[match_index_number-1])
 
-# 531
-# 513
-# 351
-# 315
-# 153
-# 135
-# >> 4312
-# len(4321) = 4
-# 0 , 1 , 2,
-
-
-def next_smaller(num):
-    if num < 20: return(-1)
-    else:
-        index = len(str(num)) #3
-        for i in range(index): # 0,1,2
-            int(num)[i-index] > int(num)[i-]
-
-
-
-
-        int(num[-3]) > int(num[-2])
-        int(num[-2]) > int(num[-1])
-
-
-
-
-
-
-
-n = 413
-print(next_smaller(n))
-
-
-
