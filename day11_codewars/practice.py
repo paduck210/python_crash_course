@@ -6,6 +6,7 @@ def isPP(x):
             y = int(round(math.log(x, i)))
             # 3 = int(round(math.log(8, 2)))
             # 2 = int(round(math.log(36, 6)))
+            # 2 = int(round(math.log(25, 5)))
             return([i, y])
 
 
