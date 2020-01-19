@@ -1,17 +1,16 @@
-string = "Hello world"
+def ticker(text, display, tick):  # tick = 30
+    full_text = (display * " ") + text + (display * " ")
 
-def reverse(str):
-    lst = list(str)
-    new = []
-    while lst != []:
-        new.append(lst.pop())
-    return(''.join(new))
+    if tick > display + len(text):
+        tick = tick - (display + len(text))  # 10,1
+        return (full_text[tick:tick + display])
 
+    else:
+        return (full_text[tick:tick + display])
 
-    # str_list = [lst[-i] for i in range(1,len(lst)+1)]
-    # str = ''.join(str_list)
-    # return(str)
+text = " an tell each. their before very high call go no? who now animal year light live."
+display = 18
+tick = 1542
 
-print(reverse(string))
-
-
+print(ticker(text,display,tick))
+# '            three only new then? g'
